@@ -1,0 +1,10 @@
+hr {
+	width: 99%;
+	color: var(--grey);
+}
+
+.introduction {
+	display: grid;
+	justify-items: center;
+	grid-gap: 10px;
+}
