@@ -8,35 +8,35 @@ class Social extends Component {
 
           <div className="social--button">
             <a href="#">
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
               Facebook
             </a>
           </div>
 
           <div className="social--button">
             <a href="#">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
               Instagram
             </a>
           </div>
 
           <div className="social--button">
             <a href="#">
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
               Twitter
             </a>
           </div>
 
           <div className="social--button">
             <a href="#">
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
               Linkedin
             </a>
           </div>
 
           <div className="social--button">
             <a href="#">
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
               Github
             </a>
           </div>

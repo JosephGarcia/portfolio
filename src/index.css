@@ -1,10 +1,11 @@
-`:root {
+:root {
   --yellow: #ffc600;
   --black:  #272727;
   --lightred: #f44336;
   --grey: #e0e0e0;
   --white: #fafafa;
 }
+
 a {
 	text-decoration: none;
 }
