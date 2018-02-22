@@ -1,0 +1,9 @@
+.contact {
+	display: grid;
+	grid-gap: 15px;
+}
+
+.contact p {
+	margin: 0;
+	line-height: 25px;
+}
