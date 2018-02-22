@@ -12,14 +12,21 @@ class Skills extends Component {
 		this.setState({tools});
 	}
 
+  mouseOver() {
+    console.log("yolo");
+  }
+
 
   render() {
   	const tools = this.state.tools;
 
-  	const renderSkills = tools.map((tool) => (
+  	const renderSkills = tools.map((tool, key) => (
   		<SkillTab 
+  			key={key}
   			name={tool.name}
   			desc={tool.desc}
+  			currentlyUsing={tool.currentlyUsing}
+        onMouseOver={this.mouseOver}
   		/>
   	))
 
@@ -27,21 +34,28 @@ class Skills extends Component {
       <div className="skills">
       	<h1>Skills</h1>
 
-      	<div className="skills--toggle">
-      		<button>All</button>
-      		<button>Day to Day</button>
-      		<button>Learning</button>
-      		<button>Old Tools</button>
-      	</div>
-
       	<p className="skills--desc">
-      		This is the list of shit I have been learning.
+			These are the tools / languages that I currently work with or have worked with in the past.
       	</p>
 
       	<div className="skills--list">
       		{renderSkills}
       	</div>
 
+      	<ul className="rules">
+      		<li className="rules--active">
+      			<p>
+      				<i className="fas fa-heart red-heart"></i>
+      				= Using daily / frequently
+      			</p>
+      		</li>
+      		<li className="rules--disabled">
+      			<p>
+      				<i className="fas fa-heart grey-heart"></i>
+      				= Not in use 
+      			</p>
+      		</li>
+      	</ul>
       </div>
     );
   }

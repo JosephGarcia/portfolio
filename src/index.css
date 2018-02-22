@@ -2,7 +2,7 @@
   --yellow: #ffc600;
   --black:  #272727;
   --lightred: #f44336;
-  --grey: #e0e0e0;
+  --grey: #bdbdbd;
   --white: #fafafa;
 }
 
@@ -32,4 +32,12 @@ h6 {
 
 .content {
 	padding: 0 25px;
+}
+
+.red-heart {
+	color: var(--lightred);
+}
+
+.grey-heart {
+	color: var(--grey);
 }

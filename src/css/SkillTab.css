@@ -1,5 +1,11 @@
 .tab {
+	padding: 5px;
+}
 
+.tab:hover{
+	background: var(--lightred);
+	color: var(--white);
+	transition: all 0.5s ease 0s;
 }
 
 .tab b {
@@ -8,4 +14,9 @@
 
 .tab p {
 	font-size: 12px;
+}
+
+.tab i {
+	margin-left: 5px;
+	font-size: 14px;
 }
