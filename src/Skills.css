@@ -1,0 +1,18 @@
+.skills {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.skills--toggle {
+}
+
+.skills--toggle button {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.skills--list {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 250px 250px 250px;
+}
