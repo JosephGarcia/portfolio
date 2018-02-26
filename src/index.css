@@ -10,8 +10,8 @@ a {
 	text-decoration: none;
 }
 body {
-  margin: 0;
-  padding: 5px 20px;
+  	margin: 0;
+  	padding: 5px 30px;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,7 +31,7 @@ h6 {
 }
 
 .content {
-	padding: 0 25px;
+	padding: 0 150px;
 }
 
 .red-heart {
@@ -40,4 +40,14 @@ h6 {
 
 .grey-heart {
 	color: var(--grey);
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+	body {
+		padding: 5px 5px;
+	}
+	.content {
+  		padding: 0 25px;
+  	}
 }

@@ -9,7 +9,7 @@ class Header extends Component {
       <div className="header">
 
         <div className="header--initials">
-          <h2>JG.</h2>
+          <h2>JG</h2>
         </div>
 
         <div className="header--links">

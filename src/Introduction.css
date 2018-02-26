@@ -5,6 +5,9 @@ hr {
 
 .introduction {
 	display: grid;
-	justify-items: center;
 	grid-gap: 10px;
+}
+
+.introduction--header {
+	text-align: center;
 }

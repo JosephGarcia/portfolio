@@ -23,7 +23,6 @@ class About extends Component {
       		<li>I currently have one tattoo but plan to get more, including my leg, torso and right arm.</li>
       		<li>Parents are from hispanic descent. Mom is Honduran and Dad is from Dominican Republic.</li>
       		<li>I am an only child.</li>
-      		<li>I'll probably have a hot girlfriend soon.</li>
       		<li>I try to go over web development material everyday for atleast 1-2 hours. Mostly at Starbucks.</li>
       		<li>My relationship with Chipotle is pretty serious. I eat it everyday. Sometimes twice.</li>
       	</ul>
