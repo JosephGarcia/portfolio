@@ -5,21 +5,21 @@ i {
 
 .social {
 	display: grid;
-	grid-auto-flow: column;
-	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+	grid-gap: 15px;
+	align-self: center;
+	justify-content: center;
+	justify-items: center;
 }
 
-.social--button {
-
-}
-
-.social--button a {
+.social a {
 	color: var(--black);
 	font-size: 16px;
 	padding: 10px;
 }
 
-.social--button a:hover{
+
+.social a:hover{
 	background: var(--lightred);
 	color: var(--white);
 	transition: all 0.5s ease 0s;

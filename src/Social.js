@@ -6,35 +6,35 @@ class Social extends Component {
     return (
         <div className="social">
 
-          <div className="social--button">
+          <div>
             <a href="#">
               <i className="fab fa-facebook"></i>
               Facebook
             </a>
           </div>
 
-          <div className="social--button">
+          <div>
             <a href="#">
               <i className="fab fa-instagram"></i>
               Instagram
             </a>
           </div>
 
-          <div className="social--button">
+          <div>
             <a href="#">
               <i className="fab fa-twitter"></i>
               Twitter
             </a>
           </div>
 
-          <div className="social--button">
+          <div>
             <a href="#">
               <i className="fab fa-linkedin"></i>
               Linkedin
             </a>
           </div>
 
-          <div className="social--button">
+          <div>
             <a href="#">
               <i className="fab fa-github"></i>
               Github
