@@ -3,7 +3,7 @@
 	grid-template-columns: 45px auto;
 	color: var(--black);
 	align-items: center;
-	padding: 0 10px;
+	padding: 10px 10px;
 }
 
 .header--initials  {
@@ -14,29 +14,25 @@
     width: 50px;
     height: 50px;
     padding: 5px;
-    margin-top: 5px;
 }
 
+.header--menu {
+	justify-self: end;
+	color: var(--lightred);
+}
+
+.header--menu:hover {
+	color: var(--grey);
+	transition: all 0.5s ease 0s;
+	cursor: pointer;
+}
+
+.header--menu i {
+	font-size: 35px;
+}
 .header--links {
 	justify-self: end;
 }
-
-.header--mobile {
-	justify-self: end;
-	padding: 5px;
-	visibility: hidden;
-	color: var(--grey);
-}
-
-.header--mobile i {
-	font-size: 35px;
-}
-
-.header--mobile:hover {
-	color: var(--lightred);
-	transition: all 0.3s ease 0s;
-}
-
 
 .header--links li {
 	list-style-type: none;

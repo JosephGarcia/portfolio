@@ -27,11 +27,12 @@ h6 {
 
 .main-grid {
 	display: grid;
-	grid-gap: 20px;
+
 }
 
 .content {
 	padding: 0 150px;
+  margin-top: 10px;
 }
 
 .red-heart {
@@ -46,8 +47,9 @@ h6 {
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 40px;
+  right: 60px;
   top: 36px;
+  display: none;
 }
 
 /* Color/shape of burger icon bars */
@@ -80,13 +82,18 @@ h6 {
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
+  padding: 1em;
+  height: 0 !important;
 }
 
 .bm-item-list a {
+	padding: 5px;
 	color: var(--white);
 	cursor: pointer;
+}
+
+.bm-item-list i {
+	margin-right: 10px;
 }
 
 /* Styling of overlay */
