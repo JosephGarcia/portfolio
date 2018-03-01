@@ -8,6 +8,10 @@ hr {
 	grid-gap: 10px;
 }
 
+.introduction p {
+	line-height: 25px;
+}
+
 .introduction--header {
 	text-align: center;
 }

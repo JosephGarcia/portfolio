@@ -4,6 +4,7 @@
   --lightred: #f44336;
   --grey: #bdbdbd;
   --white: #fafafa;
+  --brown: #795548;
 }
 
 a {
@@ -31,7 +32,7 @@ h6 {
 }
 
 .content {
-	padding: 0 150px;
+	padding: 0 300px;
   margin-top: 10px;
 }
 

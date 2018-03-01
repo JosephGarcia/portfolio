@@ -7,18 +7,27 @@ class Introduction extends Component {
     return (
       <div className="introduction">
         <h1 className="introduction--header">
-          Hello! I am Joseph.
+          Hi, I am Joseph :)
         </h1>
         <p>
-          Lorem ipsum dolor amet mumblecore 8-bit gentrify, bicycle rights pour-over tousled man braid knausgaard chillwave pitchfork chambray tote bag venmo four dollar toast. Iceland tilde mlkshk, master cleanse chartreuse helvetica intelligentsia enamel pin blog unicorn meggings portland health goth.
+          I am a junior web developer seeking employment 
+          hopefully as a front-end web developer. Currently I am 
+          employed at a marketing agency working as a IT / Help Desk Technician.
+          I am currently working with Javascript and HTML/CSS with React
+          as my framework of choice.
         </p>
 
         <p>
-          Fixie brooklyn kickstarter, blue bottle put a bird on it vaporware iPhone. Kombucha try-hard disrupt listicle, you probably haven't heard of them tumeric affogato franzen.
+          I started learning how to code in 2015. Since then I have done a coding bootcamp, 
+          worked as a front-end intern at a marketing agency and also had a small stint at a start-up. I continue to learn everyday, 
+          mostly at a local Starbucks while sipping on a hot 
+          caramel macchiatto.
         </p>
 
         <p>
-          Yolo Jones
+          Thanks for stopping by!
+          <br/>
+          <b>Joseph Garcia</b>
         </p>
         <hr/>
         <Social />
