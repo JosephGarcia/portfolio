@@ -15,8 +15,9 @@ class Header extends Component {
 
       <div className="header">
 
-        <div className="header--initials">
-          <h2>JG</h2>
+        <div className="header--logo">
+          <h2 className="inside--logo">JG</h2>
+          <div className="rotating-logo rotating"></div>
         </div>
 
         <div className="header--links">
