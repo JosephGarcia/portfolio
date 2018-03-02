@@ -97,6 +97,11 @@ export const tools = [
 	{
 		name: 'Sass',
 		desc: 'CSS extension language',
+		currentlyUsing: false,
+	},
+	{
+		name: 'Phaser',
+		desc: 'Desktop/Mobile game framework',
 		currentlyUsing: true,
 	},
 ];

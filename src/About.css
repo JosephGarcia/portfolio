@@ -2,6 +2,10 @@
 
 }
 
+.about p {
+	line-height: 25px;
+}
+
 .about--facts li {
 	margin-top: 10px;
 }
@@ -11,6 +15,7 @@
 	text-align: center;
 	font-size: 50px;
 	font-style: italic;
+	line-height: 55px;
 }
 
 .about--quote p:nth-child(2) {

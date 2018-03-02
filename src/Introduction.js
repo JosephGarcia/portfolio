@@ -7,14 +7,13 @@ class Introduction extends Component {
     return (
       <div className="introduction">
         <h1 className="introduction--header">
-          Hi, I am Joseph :)
+          Hi, I'm Joseph :)
         </h1>
         <p>
-          I am a junior web developer seeking employment 
-          hopefully as a front-end web developer. Currently I am 
-          employed at a marketing agency working as a IT / Help Desk Technician.
-          I am currently working with Javascript and HTML/CSS with React
-          as my framework of choice.
+          I am a junior web developer who is seeking his first full-time developer role. Currently I work
+          at a marketing agency as a IT / Help Desk Technician.
+          My tools of choice are Javascript and HTML/CSS with React
+          as my framework.
         </p>
 
         <p>

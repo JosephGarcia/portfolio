@@ -32,7 +32,7 @@ h6 {
 }
 
 .content {
-	padding: 0 300px;
+	padding: 0 250px;
   margin-top: 10px;
 }
 
@@ -103,11 +103,11 @@ h6 {
   margin-left: -30px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 968px) {
 	body {
 		padding: 5px 5px;
 	}
 	.content {
-  		padding: 0 25px;
+  		padding: 0 30px;
   	}
 }
