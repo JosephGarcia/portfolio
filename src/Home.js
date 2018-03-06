@@ -8,6 +8,7 @@ import Introduction from './Introduction';
 import About from './About'; 
 import Skills from './Skills';
 import Contact from './Contact';
+import NoMatch from './NoMatch';
 
 class Home extends Component {
 	constructor(props) {
@@ -33,7 +34,7 @@ class Home extends Component {
   render() {
     return (
     	<Router>
-	    	<Switch>
+	    	
 		      <div id="outer-container">
 
 		      	<Menu 
@@ -63,14 +64,16 @@ class Home extends Component {
 		      	<main id="page-wrap">
 			        <Header/>
 			        <div className="content">
+			        <Switch>
 				        <Route exact path='/' component={Introduction} />
 				        <Route path='/about' component={About} />
 				        <Route path='/skills' component={Skills} />
 				        <Route path='/contact' component={Contact} />
+				        <Route component={NoMatch} />
+					</Switch>
 			        </div>
 		        </main>
 		      </div>
-		    </Switch>
       </Router>
     );
   }
