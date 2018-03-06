@@ -1,37 +1,37 @@
 export const tools = [
 	{
 		name: 'Javascript',
-		desc: 'One of the first tools I started using.',
+		desc: 'computer programming language',
 		currentlyUsing: true,
 	},
 	{
 		name: 'Ruby',
-		desc: 'some shit thats better then PHP',
+		desc: 'dynamic object-oriented lanugage',
 		currentlyUsing: false,
 	},
 	{
 		name: 'Laravel',
-		desc: 'Worst time of my life.',
+		desc: 'web app framework using PHP',
 		currentlyUsing: false,
 	},
 	{
 		name: 'Ruby on Rails',
-		desc: 'a dream compared to Laravel',
+		desc: 'web app framework using Ruby',
 		currentlyUsing: false,
 	},	
 	{
 		name: 'CSS Grid',
-		desc: 'Bootstrap on crack.',
+		desc: 'grid-based layout system',
 		currentlyUsing: true,
 	},
 	{
 		name: 'Bootstrap',
-		desc: 'Simple CSS framework.',
+		desc: 'front end library',
 		currentlyUsing: false,
 	},
 	{
 		name: 'Sublime Text 3',
-		desc: 'bad ass code editor',
+		desc: 'text editor',
 		currentlyUsing: true,
 	},
 	{
@@ -41,7 +41,7 @@ export const tools = [
 	},
 	{
 		name: 'React',
-		desc: 'Badass Javascript Framework.',
+		desc: 'Javascript library for building UI',
 		currentlyUsing: true,
 	},
 	{
@@ -61,7 +61,7 @@ export const tools = [
 	},
 	{
 		name: 'Babel',
-		desc: 'javascript compiler.',
+		desc: 'Javascript compiler',
 		currentlyUsing: true,
 	},
 	{
@@ -71,7 +71,7 @@ export const tools = [
 	},
 	{
 		name: 'jQuery',
-		desc: 'javascript library',
+		desc: 'Javascript library',
 		currentlyUsing: true,
 	},
 	{
@@ -101,7 +101,7 @@ export const tools = [
 	},
 	{
 		name: 'Phaser',
-		desc: 'Desktop/Mobile game framework',
+		desc: 'desktop / mobile game framework',
 		currentlyUsing: true,
 	},
 ];

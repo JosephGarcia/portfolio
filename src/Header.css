@@ -13,7 +13,7 @@
 }
 
 .rotating-logo  {
-	border: 3px dotted var(--lightred);
+	border: 3px dashed var(--lightred);
     border-radius: 50%;
     line-height: 50px;
     width: 50px;
@@ -77,9 +77,11 @@
 	    top: 34px;
 	    left: 33px;
 	}
+}
 
-	/* .header--links {
-		justify-self: center;
-	} */
+@media (min-width: 320px) and (max-width: 480px) {
+	.header--links {
+		display: none;
+	}
 }
 
