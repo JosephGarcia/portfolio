@@ -26,5 +26,11 @@ i {
 @media (min-width: 320px) and (max-width: 480px) {
 	.social {
 		justify-items: start;
+		grid-gap: 10px;
+		grid-row-gap: 25px;
+	}
+
+	i {
+		font-size: 24px;
 	}
 }
