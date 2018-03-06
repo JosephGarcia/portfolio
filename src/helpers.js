@@ -15,7 +15,7 @@ export const tools = [
 		currentlyUsing: false,
 	},
 	{
-		name: 'Ruby on Rails',
+		name: 'Rails / RoR',
 		desc: 'web app framework using Ruby',
 		currentlyUsing: false,
 	},	
@@ -30,7 +30,7 @@ export const tools = [
 		currentlyUsing: false,
 	},
 	{
-		name: 'Sublime Text 3',
+		name: 'Sublime Text',
 		desc: 'text editor',
 		currentlyUsing: true,
 	},

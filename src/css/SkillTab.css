@@ -20,3 +20,7 @@
 	margin-left: 5px;
 	font-size: 14px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

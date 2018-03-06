@@ -46,7 +46,7 @@ class About extends Component {
         </p>
 
 
-      	<h3>Fun Facts</h3>
+      	<h2>Fun Facts</h2>
       	<ul className="about--facts">
           <li>Born and Raised in Miami, Florida.</li>
       		<li>I have a chihuahua named Taco. He turns 8 this year.</li>

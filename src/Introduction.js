@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Introduction.css';
 import Social from './Social';
-import thumbnail from './me.png';
 
 class Introduction extends Component {
   render() {
