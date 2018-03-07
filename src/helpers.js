@@ -41,7 +41,7 @@ export const tools = [
 	},
 	{
 		name: 'React',
-		desc: 'Javascript library for building UI',
+		desc: 'Javascript framework for building UI',
 		currentlyUsing: true,
 	},
 	{
