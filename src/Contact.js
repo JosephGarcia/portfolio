@@ -10,7 +10,7 @@ class Contact extends Component {
     		<p>Thanks for stopping by!</p>
 
     		<p>
-	    		If you would like to get in touch with me, please send me an email to <a className="red-heart" href="">josephagarc@gmail.com</a> or 
+	    		If you would like to get in touch with me, please send me an email to <a className="red-heart" href="mailto:josephagarc@gmail.com">josephagarc@gmail.com</a> or 
 	    		connect with me through any of my social media channels listed below.
     		</p>
     		<hr/>
