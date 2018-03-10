@@ -36,7 +36,7 @@ export const tools = [
 	},
 	{
 		name: 'Xcode',
-		desc: 'Tool used to build MAC-OS apps.',
+		desc: 'tool used to build MAC-OS apps',
 		currentlyUsing: false,
 	},
 	{
@@ -56,7 +56,7 @@ export const tools = [
 	},
 	{
 		name: 'Git',
-		desc: 'source code versioning.',
+		desc: 'source code versioning',
 		currentlyUsing: true,
 	},
 	{
