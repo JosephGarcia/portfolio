@@ -40,6 +40,11 @@
 	text-align: center;
 }
 
+.link-container a {
+	color: var(--lightred);
+	margin-right: 10px;
+}
+
 .portfolio__text {
 	line-height: 25px;
 	font-size: 16px;

@@ -22,9 +22,22 @@ const Portfolio = () => (
 					high to low / low to high. Website is responsive and used
 					CSS Grid to setup the UI.
 				</p>
-				<span>
-					<a href="#">Code</a> | <a href="#">Demo</a>
-				</span>
+				<div className="link-container">
+					<a
+						href="https://github.com/JosephGarcia/react-zillow"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Code
+					</a>
+					<a
+						href="http://pink-curve.surge.sh/"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Demo
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
