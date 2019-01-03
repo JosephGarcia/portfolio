@@ -6,27 +6,22 @@ class Introduction extends Component {
   render() {
     return (
       <div className="introduction">
-        <h1 className="introduction--header">Hi, I'm Joseph :)</h1>
+        <h1 className="introduction--header">
+          Aspiring Software Engineer. Part-Time Human Punching Bag. Single Dog Dad.
+        </h1>
         <p>
-          I am a junior web developer who is seeking a full-time developer role.
-          Currently I am working at a marketing agency as an IT / Help Desk
-          Technician. My tools of choice are Javascript and HTML/CSS with React
-          as my framework.
+          My name is <b>Joseph Garcia</b>. I am currently a Computer Science
+          student at Florida International University. In 2015 I began teaching
+          myself how to code. Since then, I have completed a coding bootcamp and
+          worked as a front-end development intern at a marketing agency.
+        </p>
+        <p>
+          Away from the screen, I love to socialize and practice mixed martial
+          arts. I continue to learn everyday, mostly at a local Starbucks while
+          sipping on a iced cinnamon almond milk macchiato.
         </p>
 
-        <p>
-          I began learning how to code in 2015. Since then, I have completed a
-          coding bootcamp, worked as a front-end intern at a marketing agency,
-          and also had a small stint at a SaaS start-up. I continue to learn
-          everyday, mostly at a local Starbucks while sipping on a hot caramel
-          macchiatto.
-        </p>
-
-        <p>
-          Thanks for stopping by!
-          <br />
-          <b>Joseph Garcia</b>
-        </p>
+        <p>Thanks for stopping by!</p>
         <hr />
         <Social />
       </div>

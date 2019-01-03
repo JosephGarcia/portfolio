@@ -16,8 +16,7 @@ i {
 	padding: 10px;
 }
 
-
-.social a:hover{
+.social a:hover {
 	background: var(--lightred);
 	color: var(--white);
 	transition: all 0.5s ease 0s;

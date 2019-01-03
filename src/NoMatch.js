@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 
-
 class NoMatch extends Component {
-	render(){
+	render() {
 		return (
 			<div>
-				<Redirect to='/' />
+				<Redirect to="/" />
 			</div>
-		)
+		);
 	}
 }
 

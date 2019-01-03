@@ -12,11 +12,13 @@ class About extends Component {
         </p>
 
         <p>
-          Attending the coding bootcamp not only taught me how to learn efficient programming but also how to effectively google. Anything can be learned as long as you know how to look for it.
+          A couple of years after finishing the bootcamp, I was still struggling with finding any real job prospects in the web development field.
+          When I first started coding I had dropped out of college to see if the bootcamp would indeed help me get employed.
         </p>
 
         <p>
-          I also obtained my A.A in Computer Information Systems from Miami Dade College in 2017.
+          Although it is quite possible to get a job without a degree, 
+          I decided it would be best for me to finish college. In 2018, I obtained my Associate's Degree and was able to transfer to the Computer Science program at Florida International University.
         </p>
 
       	<h2>Experience</h2>
@@ -35,26 +37,19 @@ class About extends Component {
       	
         <h2>The Future</h2>
         <p>
-          In the future, I would love to start contributing to some of my favorite repositories on Github. 
-          I would really like to focus my efforts on front-end development by making aesthetic user interfaces and enjoyable user experiences.
-        </p>
-
-        <p>
-          I hope to be working for a company that is involved in gaming, sports, social media or technology, most likely in a start-up environment.
-          I would like to also see myself helping out small and local businesses with the web development side of things.
-
+          In the future, I would love to start contributing to some of my favorite repositories on Github.
+          I hope to be working for a company that is involved in gaming, aerospace, sports, social media or even maybe the Big 4.
         </p>
 
 
       	<h2>Fun Facts</h2>
       	<ul className="about--facts">
           <li>Born and raised in Miami, Florida.</li>
-      		<li>I have a chihuahua named Taco. He turns 8 this year.</li>
+      		<li>I have a chihuahua named Taco. He turns 9 this year.</li>
       		<li>I am a huge MMA fan. I plan on competeting in atleast one amateur mix martial arts fight within the next couple of years.</li>
       		<li>Before learning how to code I worked in the restaurant industry for 5+ years.</li>
       		<li>Dream vacation would be going to Thailand to train Muay Thai.</li>
       		<li>I try to go over web development material everyday for atleast 1-2 hours. Mostly at Starbucks.</li>
-          <li>If I wasn't pursuing web development I would probably be studying psychology.</li>
           <li>On my downtime I like to binge watch Joe Rogan podcasts.</li>
       	</ul>
       	<div className="about--quote">

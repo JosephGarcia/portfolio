@@ -10,9 +10,9 @@ hr {
 
 .introduction p {
 	line-height: 25px;
+	margin: 10px;
 }
 
 .introduction--header {
 	text-align: center;
 }
-

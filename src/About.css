@@ -1,7 +1,3 @@
-.facts {
-
-}
-
 .about p {
 	line-height: 25px;
 }
@@ -23,20 +19,18 @@
 	text-align: right;
 	font-size: 30px;
 	font-weight: bold;
-
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
 	.about--facts {
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 	.about--quote p {
 		font-size: 40px;
-	} 
+	}
 
 	.about--quote p:nth-child(2) {
 		font-size: 20px;
-	} 
+	}
 }

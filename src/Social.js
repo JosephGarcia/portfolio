@@ -4,7 +4,7 @@ import './Social.css';
 class Social extends Component {
   render() {
     return (
-      <div className="social">
+      /* FACEBOOK SOCIAL BUTTON
         <div>
           <a
             rel="noopener noreferrer"
@@ -15,7 +15,9 @@ class Social extends Component {
             Facebook
           </a>
         </div>
+      */
 
+      <div className="social">
         <div>
           <a
             rel="noopener noreferrer"
